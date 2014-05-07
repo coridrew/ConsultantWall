@@ -23,3 +23,17 @@ build/Release
 # Deployed apps should consider commenting this line out:
 # see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
 node_modules
+
+# from https://github.com/linnovate/mean/blob/master/.gitignore
+.DS_Store
+.nodemonignore
+.sass-cache/
+.bower-*/
+.idea/
+node_modules/
+public/system/lib
+mean.iml
+test/coverage/
+modules/public/
+modules/views/
+/public/build/
